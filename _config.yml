@@ -3,7 +3,7 @@ description: "Redcup: An awesome Theme for Jekyll"
 
 url: https://stoerchl.github.io/
 port: 3000
-highlighter: pygments
+highlighter: rouge
 
 permalink: /:year/:month/:day/:title.html
 markdown: kramdown
