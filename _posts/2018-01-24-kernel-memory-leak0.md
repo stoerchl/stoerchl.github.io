@@ -8,7 +8,7 @@ My approach to find kernel module memory leaks inside my code.
 
 {{more}}
 
-<br/>Recently I was working on a dynamic malware analysis system. My job was to maintain and extend the VM part of a malware sandbox. In this VM we recorded malware samples and extracted importent memory ranges as well as system calls with its arguments.<br/>
+<br/>Recently I was working on a dynamic malware analysis system. My job was to maintain and extend the VM part of a malware sandbox. In this VM we recorded malware samples and extracted important memory ranges as well as system calls with its arguments.<br/>
 The VM part of the malware sandbox consists of a linux kernel module. Lately we were recording a slightly larger amount of malware samples and noticed crashes during the recording always after about 400 samples. As the crash occured always with different samples on a different code line, there was only one plausible explanation for it. There must be a memory leak somewhere..<br/>
 When I started working on this project I was totaly new to linux kernel module development and had no idea how to debug anything. The last few months went quite well with just printing out statements on different lines in the code. However this does not really work with memory leaks and therefore I needed another approach.<br/>
 My solution to this problem may not be perfect, but I worked quite well for my case and I therefore thought I could write a small statement about how to hunt for kernel module memory leaks.<br/>
