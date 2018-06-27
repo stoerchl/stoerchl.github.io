@@ -237,7 +237,7 @@ a.post-excerpt.photo:hover div.padded-content div.image {
     opacity:0.5;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1200px) {
     a.post-excerpt {
         position:relative;
         display: block;
@@ -420,8 +420,8 @@ footer a:link {
 @media screen and (min-width: 480px) {
     body { zoom: 0.8; }
 }
-@media screen and (min-width: 900px) {
-    body { zoom: 0.9; width: 900px; }
+@media screen and (min-width: 1200px) {
+    body { zoom: 0.9; width: 1200px; }
     header { margin:0; }
     footer { margin:5% 0; }
 }
