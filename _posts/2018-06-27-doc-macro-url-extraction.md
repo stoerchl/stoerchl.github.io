@@ -164,7 +164,6 @@ And again with [_oledump.py_](https://blog.didierstevens.com/programs/oledump-py
 I then had to modify the variable _global_text_ a little bit because the URL didn't turn out correctly the first time.
 Here we go:<br><br>
 
-~var global_text = "qwertyuiopasdfghjklzxcvbnm/\"'()[]${.},\;-%_:|";~
 ```
 var global_text = " qwertyuiopasdfghjklzxcvbnm/\"'()[]${.},\;-%_|:";
 
