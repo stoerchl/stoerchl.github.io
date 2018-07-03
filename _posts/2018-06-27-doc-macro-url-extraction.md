@@ -234,6 +234,12 @@ console.log(text);
 
 ```
 
+<br>For the newest Trickbot spamwave (2018-07-02) I had to adjust the _global_text_ variable to the following value because they chose an URL with numbers in it:
+
+```
+var global_text = "qwertyuiopasdfghjklzxcvbnm/\"'()[]${.},\;-%_:|1234567890";
+```
+
 <br>If we not put the code into [_JsFiddle_](https://jsfiddle.net/) and execute it we should get the following console output which contains the two payload URL's we were looking for:<br><br>
 
 {% highlight bash %}
