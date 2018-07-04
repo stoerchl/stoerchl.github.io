@@ -258,4 +258,4 @@ hXXp://sabarasourcing[.]com/mo.bin''[{catch$-wurmxdpnt''hXXp://ayuhas[.]co.in/mo
 - I think it's quite interesting to reverse engineer such droppers but I'm not sure if this write-up is long lasting as they would only have to change a few lines to mess up the whole process.
 - Besides this reverse engineering I think a very good indicator to find spam mails is the age of a containing domain. If the domain is that young the chances are very high that it is spam.. and here we had the proof twice in the last two days ;-)
 - If the same group uses the same method as they did today it would probably be possible to just exchange the arguments of the _DecodeString_ function and get the new URL's very fast.. let's find out.
-- Small Tool to extract Payload URLs on [_JsFiddle_](http://jsfiddle.net/5q32cfp6/136/)
+- Small Tool to extract Payload URLs on [_JsFiddle_](http://jsfiddle.net/5q32cfp6/157/)
