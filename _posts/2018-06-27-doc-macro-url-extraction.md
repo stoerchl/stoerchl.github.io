@@ -165,7 +165,7 @@ I then had to modify the variable _global_text_ a little bit because the URL did
 Here we go:<br><br>
 
 ```
-var global_text = "qwertyuiopasdfghjklzxcvbnm/\"'()[]${.},\;-%_:|";
+var global_text = " qwertyuiopasdfghjklzxcvbnm/\"'()[]${.},\;-%_|:";
 
 function gnkruhl() {
     var leng = 6 * Math.random() + 4;
@@ -234,6 +234,12 @@ console.log(text);
 
 ```
 
+<br>For the newest Trickbot spamwave (2018-07-02) I had to adjust the _global_text_ variable to the following value because they chose an URL with numbers in it:
+
+```
+var global_text = "qwertyuiopasdfghjklzxcvbnm/\"'()[]${.},\;-%_:|1234567890";
+```
+
 <br>If we not put the code into [_JsFiddle_](https://jsfiddle.net/) and execute it we should get the following console output which contains the two payload URL's we were looking for:<br><br>
 
 {% highlight bash %}
@@ -252,3 +258,4 @@ hXXp://sabarasourcing[.]com/mo.bin''[{catch$-wurmxdpnt''hXXp://ayuhas[.]co.in/mo
 - I think it's quite interesting to reverse engineer such droppers but I'm not sure if this write-up is long lasting as they would only have to change a few lines to mess up the whole process.
 - Besides this reverse engineering I think a very good indicator to find spam mails is the age of a containing domain. If the domain is that young the chances are very high that it is spam.. and here we had the proof twice in the last two days ;-)
 - If the same group uses the same method as they did today it would probably be possible to just exchange the arguments of the _DecodeString_ function and get the new URL's very fast.. let's find out.
+- Small Tool to extract Payload URLs on [_JsFiddle_](http://jsfiddle.net/5q32cfp6/157/)
