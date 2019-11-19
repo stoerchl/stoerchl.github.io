@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Crimson RAT Analysis
+title:  Crimson RAT Classification
 tags:   malware analysis
 ---
 
