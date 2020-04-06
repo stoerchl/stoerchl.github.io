@@ -1,4 +1,4 @@
-title: Storch
+title: Stoerchl
 description: "Redcup: An awesome Theme for Jekyll"
 
 url: https://stoerchl.github.io/
@@ -29,6 +29,6 @@ kramdown:
 google_analytics: #
 
 owner:
-  name: Storch
+  name: Stoerchl
   disqus_shortname: stoerchl-github-io
   twitter: stoerchl
